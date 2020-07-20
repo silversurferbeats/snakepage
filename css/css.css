@@ -1,0 +1,45 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+h1 {
+    margin-right: auto;
+    color: rgb(0, 194, 16);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    -webkit-box-shadow: 15px 20px 22px -10px rgba(0,0,0,1);
+    -moz-box-shadow: 15px 20px 22px -10px rgba(0,0,0,1);
+    box-shadow: 15px 20px 22px -10px rgba(0,0,0,1);
+
+    
+}
+
+body {
+    /*background: #000000; */
+    font-style: italic;
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #000000, #0f9b0f); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000000, #0f9b0f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    }
+
+header {
+    /*background-color: black; */
+    float: left;
+    width: 48%;
+    max-width: 1000px;
+    margin: 20px auto;
+}    
+
+.main {
+    float: left;
+    width: 50%;
+
+}
+
+.header .main {
+    margin-right: 2%;
+    background-color: blanchedalmond;
+    float: left;
+}
